@@ -1,0 +1,34 @@
+{
+  "@@locale": "en",
+  "@segmentMain": {
+    "---------": "---------",
+    "description": "Main screens"
+  },
+  "mainNewsTabName": "News",
+  "mainSearchTabName": "Search",
+  "@segmentSearch": {
+    "---------": "---------",
+    "description": "Search screen"
+  },
+  "searchEmptyFieldMessage": "Enter the text to start the search",
+  "searchNotFoundNewsMessage": "No news was found for your search",
+  "@segmentArticleDetails": {
+    "---------": "---------",
+    "description": "Article details screen"
+  },
+  "articleDetailsPublishedAt": "Published at: {date}",
+  "@articleDetailsPublishedAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "@segmentErrors": {
+    "---------": "---------",
+    "description": "Errors"
+  },
+  "unavailableInternet": "Internet is unavailable",
+  "errorButtonTitle": "Try again"
+}

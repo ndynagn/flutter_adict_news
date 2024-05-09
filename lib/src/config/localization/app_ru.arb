@@ -1,0 +1,34 @@
+{
+  "@@locale": "ru",
+  "@segmentMain": {
+    "---------": "---------",
+    "description": "Main screens"
+  },
+  "mainNewsTabName": "Новости",
+  "mainSearchTabName": "Поиск",
+  "@segmentSearch": {
+    "---------": "---------",
+    "description": "Search screen"
+  },
+  "searchEmptyFieldMessage": "Введите текст для начала поиска",
+  "searchNotFoundNewsMessage": "Новостей по вашему запросу не найдено",
+  "@segmentArticleDetails": {
+    "---------": "---------",
+    "description": "Article details screen"
+  },
+  "articleDetailsPublishedAt": "Опубликовано: {date}",
+  "@articleDetailsPublishedAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "@segmentErrors": {
+    "---------": "---------",
+    "description": "Errors"
+  },
+  "unavailableInternet": "Интернет недоступен",
+  "errorButtonTitle": "Попробовать еще раз"
+}
