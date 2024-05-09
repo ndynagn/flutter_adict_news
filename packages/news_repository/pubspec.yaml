@@ -1,0 +1,26 @@
+name: news_repository
+description: "A test task for the Adict company."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  build_verify: ^3.1.0
+  json_serializable: ^6.8.0
+
+flutter:
+  generate: true
+  uses-material-design: true
